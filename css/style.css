@@ -10,8 +10,16 @@
       margin: 0;
     }
     header{
-		height 400px;
-		background-color: aqua;
+		height: 400px;
+		background-color: black;
+		color: aqua;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	header h1 {
+		padding: 25px;
+		align-items: center;
 	}
     *, *:before, *:after {
       box-sizing: inherit;
@@ -86,7 +94,8 @@
       font-size: 40px;
     }
 	section {
-		height: 400px;
-		background-image: url(../images/massageImg.jpg);
+		height: 800px;
+		background-image: linear-gradient(#521123, #980786, #745632);
+		display: flex;
 	}
 	
